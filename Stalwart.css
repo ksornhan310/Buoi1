@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    color: rgb(10, 180, 180);
+}
+
+.intro{
+    display: flex;
+    /* display: flex dua cac the len chung cung 1 hang */
+    justify-content: space-around;
+    /* Cach deu noi dung cho 2 ben mang hinh */
+}
+
+.name h1{
+color: rgb(165, 12, 12);
+font-size: 50px;
+}
+
+.menu .home{
+    color: red;
+}
+
+.carousels{
+    background: url("./images-layout1/banner2.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+        /* position: relative; */
+
+}
+
+.name{
+    position: absolute;
+    left: 100px;
+    top: -20px;
+}
+
+.name p{
+    color: white;
+    position: relative;
+    top: -40px;
+}
+
+.solution h1{
+    background-color: gray;
+    position: absolute;
+    right: 100px;
+    top: 240px;
+    font-size: 55px;
+}
+
+.solution .line_1{
+    background-color: gray;
+    position: absolute;
+    right: 100px;
+    top: 350px;
+    font-size: 15px;
+}
+
+.solution .line_2{
+    background-color: gray;
+    position: absolute;
+    right: 100px;
+    top: 380px;
+    font-size: 15px;
+}
+
+.about{
+    background-color: rgb(21, 121, 214);
+    padding: 5px 10px;
+}
+
+.about h3{
+    background-color: gray;
+    font-size: 35px;
+    width: 300px;
+}
+
+.about p{
+    color: white;
+    font-size: 15px;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.welcome p{
+    color: darkgrey;
+}
+
+.clear{
+    clear: both;
+}
+
+.picture_left, .picture_right{
+float: left;
+width: 50%;
+}
+
+.picture_left .picture_left1 img, .picture_right img{
+    width: 100%;
+}
+
+.picture_left .picture_left1 img{
+    padding-left: 50px;
+}
+
+.picture_right img{
+    padding-right: 50px;
+}
+
+.sed_left{
+    float: left;
+    padding-left: 50px;
+}
+
+.sed_left p{
+    padding-left: 20px;
+}
+
+.sed_left h3, .picture .sed_right h3{
+    color: rgba(161, 10, 10, 0.795);
+}
+
+.picture .sed_right h3 span, .sed_left h3 span{
+    color: rgba(8, 235, 235, 0.842);
+    font-size: 30px;
+}
+
+.sed_right{
+    /* padding-left: 20px; */
+    width:50%;
+    float: left;
+    padding-left: 40px;
+}
+
+.sed_right p{
+    padding-left: 20px;
+}
+
+.ourwork{
+    float: left;
+}
+
+.work h1{
+    text-align: center;
+}
+
+.pic_up img{
+    width: 33%;
+}
+
+.pic_down img{
+    width: 33%;
+}
+
+.pic{
+    padding: 0 50px 0 50px;
+}
+
+.succeed{
+    float: left;
+}
+
+.last_pic img{
+    /* padding-left: 700px; */
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.rule span{
+    color: rgb(0, 183, 255);
+}
+
+.rule p{
+    color: white;
+}
+
+.footer_1, .footer_2, .footer_3, .footer_4{
+    float: left;
+    padding: 20px;
+    width: 25%;
+}
+
+.footer_4 h1{
+    text-align: left;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+.think{
+    width: 100%;
+    padding-right: 300px;
+}
+
+.footer_1 h4, .footer_2 h4, .footer_3 h4, .footer_4 h1{
+    color: white;
+}
+
+.footer_1 p, .footer_2 p, .footer_3 p, .footer_4 p{
+    color: rgb(223, 216, 202);
+}
+
+.footer_4 span{
+    color: red;
+}
+
+.footer_3 button{
+    background-color: rgb(180, 136, 13);
+    color: white;   
+    border: none;
+}
+
+.footer_3 input{
+    border: none;
+}
